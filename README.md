@@ -7,7 +7,7 @@ JSON can be parsed through the `mappedJson` computation expression or through th
 
 ## Using computation expressions
 
-```
+```fsharp
 type Person =
     { Name    : string
       Age     : int
@@ -36,7 +36,7 @@ val it : MappedJson<Person> = Success {Name = "John";
 
 ## Using infix operators
 
-```
+```fsharp
 type Person =
     { Name    : string
       Age     : int
